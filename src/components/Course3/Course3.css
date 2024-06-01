@@ -1,0 +1,83 @@
+.Course3{
+    padding: 80px 0;
+}
+
+.Course3__h1 {
+    color: rgb(37, 38, 65);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+}
+
+.Course3__list{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.Course3__item{
+    margin-top: 60px;
+    background-color: #fff;
+    padding: 30px;
+    width: 320px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.1);
+}
+
+.Course3__img1{
+    margin: 0 auto;
+    background-color: rgba(0, 203, 184, 0.3);
+    width: 90px;
+    height: 90px;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+
+.Course3__item:nth-child(1){
+    .Course3__img1{
+        background-color: rgba(73, 187, 189, 0.3);
+    }
+}
+.Course3__item:nth-child(2){
+    .Course3__img1{
+        background-color: rgba(91, 114, 238, 0.3);
+    }
+}
+.Course3__item:nth-child(3){
+    .Course3__img1{
+        background-color: rgba(157, 204, 255, 0.3);
+    }
+}
+.Course3__item:nth-child(5){
+    .Course3__img1{
+        background-color: rgba(244, 140, 6, 0.3);
+    }
+}
+.Course3__item:nth-child(6){
+    .Course3__img1{
+        background-color: rgba(238, 100, 91, 0.3);
+    }
+}
+.Course3__item:nth-child(7){
+    .Course3__img1{
+        background-color: rgba(37, 38, 65, 0.3);
+    }
+}
+
+.item__h4{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+}
+.item__p{
+    margin-top: 25px;
+    text-align: center;
+    color: rgb(105, 105, 132);
+}

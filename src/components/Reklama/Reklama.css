@@ -1,0 +1,40 @@
+.Reklama{
+    border-radius: 37px;
+    background: rgb(37, 38, 65);
+    padding: 70px 0;
+}
+
+.Rek__h1{
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.Rek__p{
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: 2%;
+    text-align: center;
+}
+
+.Rek__btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 236px;
+    height: 63px;
+    border-radius: 12px;
+    background: rgb(73, 187, 189);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    border: none;
+}

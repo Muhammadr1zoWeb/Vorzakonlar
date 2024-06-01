@@ -1,0 +1,120 @@
+.Course4{
+    background: rgb(157, 204, 255);
+    padding: 97px 0;
+}
+
+.Course4__wrapper{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.Course4__box{
+    /* margin-top: 97px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.course4__box2{
+    margin-top: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        p{
+            color: rgb(105, 105, 132);
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 180%;
+            letter-spacing: 2%;
+
+        }
+    }
+}
+
+.Course4__h1{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.Course4__a{
+    color: rgb(73, 187, 189);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.Course4__div{
+    width: 340px;
+    height: 590px;
+    border-radius: 20px;
+    box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.1);
+    background: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.course4__img{
+    width: 100%;
+}
+
+.course4__h3{
+    margin-top: 20px;
+    color: rgb(37, 38, 65);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.course4__p{
+    margin-top: 20px;
+    color: rgb(105, 105, 132);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: 2%;
+}
+
+.Course4__div2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    div{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    p{
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 2%;
+    }
+    .div2__height{
+        color: #00000080;
+        text-decoration-line:line-through;
+        font-size: 18px;
+        font-weight: 300;
+        font-style: italic;
+        line-height: 27px;
+        letter-spacing: 2%;
+        margin-left: 20%;
+    }
+    .div2__h6{
+        color: #49BBBD;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 2%;
+    }
+}
