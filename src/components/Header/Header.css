@@ -1,0 +1,44 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav__head{
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav__list{
+    display: flex;
+    align-items: center;
+
+}
+.nav__item{
+    color: white;
+    margin-left: 20px;
+    list-style-type: none;
+    cursor: pointer;
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+.cta-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
