@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container{
     container: 1594;
     max-width: 1594px;
@@ -5,5 +6,20 @@
     padding-left: 40px;
     padding-right: 40px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
 }

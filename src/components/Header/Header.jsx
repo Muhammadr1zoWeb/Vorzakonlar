@@ -18,10 +18,10 @@ function Header() {
               <Link to={'/'}>Home</Link>
               </li>
             <li className='nav__item'>
-              <Link to={'/courses'}>Courses</Link>
+              <Link to={'/cource'}>Courses</Link>
               </li>
             <li className='nav__item'>
-              <Link>Careers</Link>
+              <Link to={'/careers'}>Careers</Link>
               </li>
             <li className='nav__item'>
               <Link to={'/blog'}>Blog</Link>
@@ -48,3 +48,4 @@ function Header() {
 }
 
 export default Header
+
