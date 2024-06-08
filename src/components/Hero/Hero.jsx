@@ -1,5 +1,6 @@
 import React from 'react'
 import './Hero.css'
+import heropng from '../../assets/heroleftimg.png'
 
 function Hero() {
   return (
@@ -18,7 +19,7 @@ function Hero() {
         </div>
 
         <div className="hero__right">
-          <img className='hero__right__img' src='' alt="" />
+          <img className='hero__right__img' src={heropng} alt="" />
         </div>
 
       </div>

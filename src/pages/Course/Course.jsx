@@ -7,7 +7,7 @@ import Reklama from '../../components/Reklama/Reklama'
 
 function Course() {
   return (
-    <div>
+    <div className='course'>
       
       <Course2/>
       <Course3/>

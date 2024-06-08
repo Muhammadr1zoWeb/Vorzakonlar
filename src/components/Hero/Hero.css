@@ -2,9 +2,9 @@
     padding: 80px 0 150px 0;
     background-color: #49bbbd; 
     clip-path: circle(77.7% at 50% 21%);
-     background-image: url('../../assets/img/hergirl.png'); 
+    background-image: url('../../assets/herogirl.png'); 
     background-size: 100%; 
-    background-position: right 50px  top ;
+    background-position: right 120px  top ;
     background-size: 500px;
     background-repeat: no-repeat; 
     clip-path: ellipse(71% 100% at 50% 0%);
@@ -53,4 +53,7 @@
     font-weight: 600;
     background: rgba(255, 255, 255, 0.3);
     border: none;
+}
+.hero__right__img{
+    width: 600px;
 }

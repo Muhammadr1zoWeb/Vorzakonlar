@@ -1,6 +1,9 @@
 import React from 'react'
 import './OurSucses.css'
 import { Link } from 'react-router-dom'
+import leftpng from '../../assets/leftgirlvv.svg'
+import rightpng from '../../assets/rightgirlvv.svg'
+
 
 function OurSucses() {
   return (
@@ -69,14 +72,14 @@ function OurSucses() {
 
               <div className="totc__div">
                 <div className="totc__left">
-
+                  <img src={leftpng} alt="" />
                   <div className="totc__laft">
                     <h3>FOR INSTRUCTORS</h3>
                   </div>
                 </div>
 
                 <div className="totc__right">
-
+                    <img src={rightpng} alt="" />
                   <div className="totc__rught">
                     <h3></h3>
                   </div>
