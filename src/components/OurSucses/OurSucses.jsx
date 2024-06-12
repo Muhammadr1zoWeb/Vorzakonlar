@@ -3,7 +3,12 @@ import './OurSucses.css'
 import { Link } from 'react-router-dom'
 import leftpng from '../../assets/leftgirlvv.svg'
 import rightpng from '../../assets/rightgirlvv.svg'
-
+import doc1 from '../../assets/doc1.png'
+import doc3 from '../../assets/doc3.png'
+import majlis1 from '../../assets/majlis1.svg'
+import doc2 from '../../assets/doc2.png'
+import sweetgirl from '../../assets/sweetgirl.svg'
+import travelright from '../../assets/travelright.svg'
 
 function OurSucses() {
   return (
@@ -47,19 +52,19 @@ function OurSucses() {
 
             <div className="software__div">
               <div className="software__item">
-
+                <img src={doc1} alt="" />
                 <h2>Online Billing <br /> Invoicing, & Contracts</h2>
                 <p>Simple and secure control of your organization’s financial and legal transactions. Send customized invoices and contracts</p>
               </div>
 
               <div className="software__item">
-
+                <img src={doc2} alt="" />
                 <h2>Easy Scheduling & <br /> Attendance Tracking</h2>
                 <p>Schedule and reserve classrooms at one campus or multiple campuses. Keep detailed records of student attendance</p>
               </div>
 
               <div className="software__item">
-
+                <img src={doc3} alt="" />
                 <h2>Customer Tracking  <br /> Attendance Tracking</h2>
                 <p>Automate and track emails to individuals or groups. Skilline’s built-in system helps organize your organization </p>
               </div>
@@ -95,7 +100,7 @@ function OurSucses() {
               </div>
 
               <div className="class__right">
-
+                  <img src={majlis1} alt="" />
                 <button className='btn__md'>
 
                 </button>
@@ -138,12 +143,21 @@ function OurSucses() {
               </div>
 
               <div className="teacher__right">
-
+                <img src={sweetgirl} alt="" />
               </div>
 
 
             </div>
             <button className='last__btn'>See More Features</button>
+          </div>
+          <div className="travel__succes">
+            <div className="travel__left">
+              <img src={travelright} alt="" />
+            </div>
+            <div className="travel__right">
+              <h1 className='travel__title'>Assessments, <span>Quizzes</span>, Tests</h1>
+              <p className='travel__dis'>Lorem ipsuzm, dolor sit amet consectetur adipisicing elit. Ut consequatur ab a laborum ex hic illum maiores velit ipsam dolor.</p>
+            </div>  
           </div>
         </div>
       </div>

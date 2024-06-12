@@ -290,4 +290,8 @@ Ali, [6/1/2024 10:33 AM]
     font-size: 22px;
 }
 
-
+.travel__succes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

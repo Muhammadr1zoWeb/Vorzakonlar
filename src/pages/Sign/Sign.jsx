@@ -9,7 +9,7 @@ function Sign() {
       <div className="container">
         <div className="left__sign">
           <div className="control__sign">
-          <img src={signgirl} alt="" />
+          <img className='sign__img' src={signgirl} alt="" />
         </div>
 
         <div className="login__right">

@@ -8,8 +8,8 @@ function Login() {
     <div className='login'>
       <div className="container">
         <div className="loginapp">
-            <div className="left__img">
-                <img src={afrika} alt="" />
+            <div className="left__imgooooo">
+                <img className='left__img' src={afrika} alt="" />
             </div>
             <div className="login__right">
                 <h1 className='login__right__title'>Welcome Back</h1>
