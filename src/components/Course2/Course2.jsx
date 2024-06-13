@@ -22,27 +22,32 @@ function Course2() {
                     <Link to={'/course-detail'}>
                         <div className='card'>
                             <img className='card__img' src={card__img1} alt="" />
-                            <h3 className='card__h3'>AWS Certified Solutions Architect</h3>
-                            <div className='card__div'>
-                                <img className='card__avatar' src={avatar} alt="" />
-                                <p className='div__p'>Lina</p>
-                            </div>
-                            <div className='card__bot'>
+                            <div className='yozuvlar'>
+                                <h3 className='card__h3'>AWS Certified Solutions Architect</h3>
+                                <div className='card__div'>
+                                    <img className='card__avatar' src={avatar} alt="" />
+                                    <p className='div__p'>Lina</p>
+                                </div>
+                                <div className='card__bot'>
 
+                                </div>
                             </div>
+                            
                         </div>
                     </Link>
 
                     <Link to={'/course-detail'}>
                         <div className='card'>
                             <img className='card__img' src={card__img2} alt="" />
-                            <h3 className='card__h3'>AWS Certified Solutions Architect</h3>
-                            <div className='card__div'>
-                                <img className='card__avatar' src={avatar} alt="" />
-                                <p className='div__p'>Lina</p>
-                            </div>
-                            <div className='card__bot'>
-                                
+                            <div className="yozuvlar">
+                                <h3 className='card__h3'>AWS Certified Solutions Architect</h3>
+                                <div className='card__div'>
+                                    <img className='card__avatar' src={avatar} alt="" />
+                                    <p className='div__p'>Lina</p>
+                                </div>
+                                <div className='card__bot'>
+                                    
+                                </div>
                             </div>
                         </div>
                     </Link>
@@ -50,13 +55,15 @@ function Course2() {
                     <Link to={'/course-detail'}>
                         <div className='card'>
                             <img className='card__img' src={card__img3} alt="" />
-                            <h3 className='card__h3'>AWS Certified Solutions Architect</h3>
-                            <div className='card__div'>
-                                <img className='card__avatar' src={avatar} alt="" />
-                                <p className='div__p'>Lina</p>
-                            </div>
-                            <div className='card__bot'>
-                                
+                            <div className="yozuvlar">
+                                <h3 className='card__h3'>AWS Certified Solutions Architect</h3>
+                                <div className='card__div'>
+                                    <img className='card__avatar' src={avatar} alt="" />
+                                    <p className='div__p'>Lina</p>
+                                </div>
+                                <div className='card__bot'>
+                                    
+                                </div>
                             </div>
                         </div>
                     </Link>

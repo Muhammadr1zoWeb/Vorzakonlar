@@ -26,13 +26,18 @@
     height: 474px;
     border-radius: 20px;
     box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.1);
-    background: rgb(255, 255, 255);
+    /* background: red; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    flex-direction: column !important;
     padding: 20px;
 
 }
 .card__img{
     width: 100%;
     object-fit: cover;
+    /* height: 150px; */
 }
 .card__h3{
     color: rgb(37, 38, 65);
@@ -40,6 +45,10 @@
     font-weight: 500;
     line-height: 180%;
     letter-spacing: 0%;
+}
+.yozuvlar{
+    display: block;
+    margin-top: 50px;
 }
 .card__avatar{
     margin-top: 10px;
