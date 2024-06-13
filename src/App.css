@@ -1,10 +1,10 @@
-<<<<<<< HEAD
+
 .container{
-    container: 1594;
+    /* container: 1594; */
     max-width: 1594px;
     width: 100%;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin-left: auto;
     margin-right: auto
 }
